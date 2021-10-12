@@ -1,0 +1,7 @@
+{
+  "name": "SkateApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,5 +1,67 @@
-ion-back-button {
-    position: absolute;
-    height: auto;
-    width: auto;
+ion-content {
+    background: #E5E5E5;
+    position: relative;
+    
 }
+
+
+.card {
+    margin: 0 auto;
+    border-radius: 10px;
+
+    .header {         
+        height: 200px;
+
+        .avatar { 
+            right: 160px;                
+            left: 100px; 
+            position: relative;                
+             
+            img {
+                display: block;
+                border-radius: 50%;                 
+                width: 160px;
+                height: 160px;           
+                background-color: #E5E5E5;
+                margin: 16px;              
+
+                
+            }
+         
+        }
+    }   
+}
+
+.card-body {
+    backgound-color: #ffffff;
+    
+
+    .user-meta {
+        padding-top: 5px;
+
+        .username {
+            font-size: 18px; 
+            font-weight: 400;
+            margin: 5px;           
+        }
+    }
+}
+
+ion-toolbar {
+    --background: #fffff;
+
+    .bt-perfil {
+        height: 50px;
+        width: 100px;
+        padding-left: 10px ;
+        
+    }
+
+        .bt-incluir{
+            font-size: 15px;           
+           
+     
+    }
+
+}
+

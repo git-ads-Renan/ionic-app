@@ -1,12 +1,63 @@
 <ion-header [translucent]="true">
 
   <ion-toolbar class="ion-text-center" color="primary">
-    <ion-back-button defaultHref="tabs"></ion-back-button>
     <ion-title>Perfil</ion-title>
+      <ion-buttons slot="end">
+        <ion-button>         
+          <ion-icon slot="end" name="settings-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
   </ion-toolbar>
+</ion-header> 
 
-</ion-header>
+<ion-content fullscreen>
 
-<ion-content>
+  <div class="card">
+    <div class="header">
+      <div class="avatar">
+        <img src="../../assets/img/perfil.png" alt="">       
+      </div>
+    </div>
+  </div>
+
+  <div class="card-body">
+
+    <div class="user-meta ion-text-center">
+      <h3 class="username">João dos Santos</h3>
+    </div>
+  </div>
+
+
+<!-- Informações do perfil  -->
+
+<ion-toolbar>
+  <ion-button fill="outline" class="bt-perfil">Categoria </ion-button>
+  <ion-button fill="outline" class="bt-perfil">Seguidores </ion-button>
+  <ion-button fill="outline" class="bt-perfil">Seguindo </ion-button>
+
+  <ion-button fill="outline" class="bt-perfil">Manobras</ion-button>
+  <ion-button fill="outline" class="bt-perfil">Desafios</ion-button>
+</ion-toolbar>
+
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-button class="bt-incluir">
+      Adicionar Manobras
+      <ion-icon slot="end" name="download-outline"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+
+  <ion-buttons slot="secondary">
+    <ion-button class="bt-incluir">
+      Adicionar Desafios<ion-icon slot="end" name="download-outline"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+</ion-toolbar>
+
+<ion-card>
+  <img src="../../assets/img/manobra.png" /> 
+</ion-card>
 
 </ion-content>
+
+

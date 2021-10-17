@@ -46,6 +46,8 @@ ion-content {
 }
 
 ion-toolbar {
+    
+    text-align: center;
     --background: #fffff;
     padding-top: 10px;
     padding-right: 20px;
@@ -53,26 +55,24 @@ ion-toolbar {
     
 
     .bt-perfil {
+        font-style: normal;
+        font-size: 10px;  
         height: 50px;
         width: 100px;
         padding-left: 10px;
-        --background-activated: #f4f5f8;
-        --color: rgb(0, 0, 0);    
-
-      
+        --background: #E5E5E5; 
+        --background-activated: #f4f5f8;       
+        --color: rgb(0, 0, 0);
+     
     }
 
-        .bt-incluir{
-            font-size: 20px;
+        .bt-incluir{ 
+            font-style: normal;                      
             --background-activated: #f4f5f8;
             --color: rgb(0, 0, 0);  
-            font-size: small;       
+            font-size: 10px;       
     }
 }
 
-ion-card{
-    background: #fff;
-    
 
-}
 

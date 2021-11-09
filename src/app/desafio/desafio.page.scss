@@ -1,5 +1,52 @@
 ion-back-button {
     position: absolute;
     height: auto;
-    width: auto;
+    width: auto;    
 }
+
+ion-content {
+    background: #E5E5E5;
+    position: relative;    
+}
+
+.card {        
+    margin: 0 auto;
+    border-radius: 50px;
+
+    .username {             
+        font-size: 18px;     
+        color: rgb(0, 0, 0); 
+        float: left;            
+        margin-left: 20px; 
+        padding-bottom: 10px;  
+    }
+                
+        .img {
+            margin: 0 auto;
+            display: block;
+            border-radius: 50%; 
+            padding-top: 20px;      
+        }
+}
+
+ion-toolbar {    
+    text-align: center;
+    --background: #fffff;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    .bt-perfil {
+        font-style: normal;
+        font-size: 15px;  
+        left: 100px;
+        width: 180px;               
+        --background: #E5E5E5; 
+        --background-activated: #f4f5f8;       
+        --color: rgb(0, 0, 0);             
+    }
+
+}
+ 
+
+

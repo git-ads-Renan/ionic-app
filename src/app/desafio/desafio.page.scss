@@ -11,33 +11,22 @@ ion-content {
 
 .card {        
     margin: 0 auto;
-    border-radius: 50px;    
+    border-radius: 50px;
 
-    .desafio{
-        margin-top: 50px;
+    .username {             
         font-size: 18px;     
         color: rgb(0, 0, 0); 
-        float: left;        
-        margin-left: 40px; 
-        padding-bottom: 10px;                    
+        float: left;            
+        margin-left: 20px; 
+        padding-bottom: 10px;  
     }
-
-        .username {
-            
-            font-size: 18px;     
-            color: rgb(0, 0, 0); 
-            float: right;            
-            margin-right: 40px; 
-            padding-bottom: 20px;  
-        }
                 
-            .img {
-                margin: 0 auto;
-                display: block;
-                border-radius: 50%; 
-                padding-top: 20px;      
-            }
-
+        .img {
+            margin: 0 auto;
+            display: block;
+            border-radius: 50%; 
+            padding-top: 20px;      
+        }
 }
 
 ion-toolbar {    
